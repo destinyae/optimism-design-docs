@@ -3,8 +3,8 @@
 Welcome to the design docs repository. This repo is used to coordinate
 around engineering design and risk analysis.
 
-The design review process is important for sharing context and aligning
-on the future of the OP Stack in a public and transparent way. A good design
+The design review process is important for sharing context and aligning 
+the future of the OP Stack in a public and transparent way. A good design
 doc will explain why a particular solution solves a problem well by explaining
 necessary context. It can include pseudocode and diagrams but does not need
 to be as specific as a spec, which should include all information required
@@ -27,7 +27,7 @@ directory after it is completed.
 The agendas for design doc review sessions are being tracked on 
 Github [here](https://github.com/ethereum-optimism/design-docs/issues/15).
 
-To schedule a design review sesion:
+To schedule a design review session:
 - Ensure that you have a pull request that has been reviewed async
 - [Open an issue](https://github.com/ethereum-optimism/design-docs/issues/new/choose) and click "Schedule a Design Review" then fill in the information. Please submit your request at least 72 hours before your meeting time to ensure it is posted in time.
 - A design review meeting will be added to the [Public OP Stack Calendar](https://calendar.google.com/calendar/embed?src=c_e7b35eadabec39777b28192d371c45b6ef4177e01740517a234e7c768881fbfe%40group.calendar.google.com&ctz=America%2FLos_Angeles) by an admin. Please reach out on discord if this hasn't happened. 
