@@ -37,7 +37,7 @@ To align architecturally with the Superchain design, a proposal was made to enab
 
 # Proposed Solution
 
-The solution involves a [Custom Token Bridge](https://docs.optimism.io/builders/app-developers/bridging/custom-bridge) implementation, which provides desired features such as pausability and the ability to perform migrations. The OP Stack security model secures the proposed design, similar to how `StandardBridge` operates today.
+The solution involves a [Custom Token Bridge](https://docs.optimism.io/app-developers/bridging/custom-bridge) implementation, which provides desired features such as pausability and the ability to perform migrations. The OP Stack security model secures the proposed design, similar to how `StandardBridge` operates today.
 
 ### Implementation
 
@@ -67,7 +67,7 @@ Once everything is set, the adapters are ready to transfer USDC between domains.
 
 ### 2) Deposits & withdrawals
 
-For an user to make a deposit, the process remains as simple as follows:
+For a user to make a deposit, the process remains as simple as follows:
 
 1. Users approve the `L1OpUSDCBridgeAdapter` to spend USDC.
 2. Users proceed to deposit USDC by calling the contract.
